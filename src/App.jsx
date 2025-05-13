@@ -1,3 +1,4 @@
+import logo from './assets/logo-gabia.svg'
 import google from './assets/icon_google.svg'
 import naver from './assets/icon_naver.svg'
 import kakao from './assets/icon_kakao.svg'
@@ -9,7 +10,7 @@ function App() {
     <>
 
       <div className='wrap'>
-        <h1><img src="/logo-gabia.svg" alt="수정테스트" /></h1>
+        <h1><img src={logo} alt="수정테스트" /></h1>
         <h6>맞춤형 정보 제공을 위해 로그인이 필요합니다.</h6>
 
         <form>
