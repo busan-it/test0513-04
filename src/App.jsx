@@ -9,9 +9,9 @@ function App() {
     <>
 
       <div className='wrap'>
-        <h1><img src="/logo-gabia.svg" alt="가비아" /></h1>
+        <h1><img src="/logo-gabia.svg" alt="수정테스트" /></h1>
         <h6>맞춤형 정보 제공을 위해 로그인이 필요합니다.</h6>
-        
+
         <form>
           <fieldset>
             <legend>회원 로그인</legend>
@@ -22,11 +22,11 @@ function App() {
               <button type='submit'>로그인</button>
             </div>{/* .input-box */}
 
-            
+
           </fieldset>
         </form>
         <div className="sns-login">
-       
+
           <ul>
             <li><a href="#"><img src={google} alt="구글" />
             <p>구글 로그인</p>
